@@ -1,0 +1,51 @@
+# Geotechnical Engineering1 — Palmerston North
+
+> Geotechnical engineering services in Palmerston North, New Zealand.
+
+## Services
+- [Anchors](https://palmerston-north.geotechnical-engineering1.co/anchors/)
+- [Atterberg Limits](https://palmerston-north.geotechnical-engineering1.co/atterberg-limits/)
+- [Cbr Road](https://palmerston-north.geotechnical-engineering1.co/cbr-road/)
+- [Cpt Test](https://palmerston-north.geotechnical-engineering1.co/cpt-test/)
+- [Deep Excavations](https://palmerston-north.geotechnical-engineering1.co/deep-excavations/)
+- [Excavation Monitoring](https://palmerston-north.geotechnical-engineering1.co/excavation-monitoring/)
+- [Excavations](https://palmerston-north.geotechnical-engineering1.co/excavations/)
+- [Flexible Pavement](https://palmerston-north.geotechnical-engineering1.co/flexible-pavement/)
+- [Footings](https://palmerston-north.geotechnical-engineering1.co/footings/)
+- [Foundations](https://palmerston-north.geotechnical-engineering1.co/foundations/)
+- [Grain Size](https://palmerston-north.geotechnical-engineering1.co/grain-size/)
+- [Ground Improvement](https://palmerston-north.geotechnical-engineering1.co/ground-improvement/)
+- [Grouting](https://palmerston-north.geotechnical-engineering1.co/grouting/)
+- [In Situ Permeability](https://palmerston-north.geotechnical-engineering1.co/in-situ-permeability/)
+- [Investigation](https://palmerston-north.geotechnical-engineering1.co/investigation/)
+- [Lab In Situ](https://palmerston-north.geotechnical-engineering1.co/lab-in-situ/)
+- [Laboratory](https://palmerston-north.geotechnical-engineering1.co/laboratory/)
+- [Liquefaction](https://palmerston-north.geotechnical-engineering1.co/liquefaction/)
+- [Masw](https://palmerston-north.geotechnical-engineering1.co/masw/)
+- [Mat Foundations](https://palmerston-north.geotechnical-engineering1.co/mat-foundations/)
+- [Piles](https://palmerston-north.geotechnical-engineering1.co/piles/)
+- [Proctor Tests](https://palmerston-north.geotechnical-engineering1.co/proctor-tests/)
+- [Resistivity](https://palmerston-north.geotechnical-engineering1.co/resistivity/)
+- [Retaining Walls](https://palmerston-north.geotechnical-engineering1.co/retaining-walls/)
+- [Rigid Pavement](https://palmerston-north.geotechnical-engineering1.co/rigid-pavement/)
+- [Road Geotechnics](https://palmerston-north.geotechnical-engineering1.co/road-geotechnics/)
+- [Sand Cone Density](https://palmerston-north.geotechnical-engineering1.co/sand-cone-density/)
+- [Seismic](https://palmerston-north.geotechnical-engineering1.co/seismic/)
+- [Seismic Isolation](https://palmerston-north.geotechnical-engineering1.co/seismic-isolation/)
+- [Seismic Microzonation](https://palmerston-north.geotechnical-engineering1.co/seismic-microzonation/)
+- [Seismic Refraction](https://palmerston-north.geotechnical-engineering1.co/seismic-refraction/)
+- [Slope Stability](https://palmerston-north.geotechnical-engineering1.co/slope-stability/)
+- [Slopes](https://palmerston-north.geotechnical-engineering1.co/slopes/)
+- [Soft Ground Tunnels](https://palmerston-north.geotechnical-engineering1.co/soft-ground-tunnels/)
+- [Spt Drilling](https://palmerston-north.geotechnical-engineering1.co/spt-drilling/)
+- [Stone Columns](https://palmerston-north.geotechnical-engineering1.co/stone-columns/)
+- [Test Pits](https://palmerston-north.geotechnical-engineering1.co/test-pits/)
+- [Triaxial](https://palmerston-north.geotechnical-engineering1.co/triaxial/)
+- [Vibrocompaction](https://palmerston-north.geotechnical-engineering1.co/vibrocompaction/)
+
+## Contact
+- Website: https://palmerston-north.geotechnical-engineering1.co/
+
+## About
+This site provides geotechnical engineering services in Palmerston North, New Zealand.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).
