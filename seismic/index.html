@@ -22,6 +22,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 summary:hover { background: rgba(0,0,0,0.02); }
 .sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
 .sidebar .home {
@@ -40,13 +45,13 @@ footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; ba
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
 main p { margin-bottom: 1rem; color: #334155; }
-    .content-area { flex-direction: column; }
+    
 .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
 .cta .whatsapp-btn:hover { background: #1eb853; }
 a { color: var(--primary); text-decoration: none; }
 main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 .sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
 .sidebar {
     width: 240px; background: var(--dark); color: white; flex-shrink: 0;
@@ -90,9 +95,9 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
 }
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
 .sidebar { padding: .5rem 0; }
-    .container { padding: 1rem; }
+    
 .sidebar .cat-name:hover { color: #c9a961; }
-    main { padding: 1.5rem; }
+    
 .sidebar .cat-sub {
     background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
 }
@@ -129,7 +134,9 @@ tr:nth-child(even) { background: #f8fafc; }
 .header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
 .servicio:hover { border-color: var(--primary); }
 .servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
-header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }</style>
+header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
+
+</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"name":"Seismic in Palmerston North – New Zealand","isPartOf":{"@type":"WebSite","@id":"https://palmerston-north.geotechnical-engineering1.co/#website","url":"https://palmerston-north.geotechnical-engineering1.co"},"@id":"https://palmerston-north.geotechnical-engineering1.co/seismic/","@type":"WebPage","url":"https://palmerston-north.geotechnical-engineering1.co/seismic/","inLanguage":"en","description":"In Palmerston North, seismic considerations are shaped by the city’s position within the actively deforming North Island, where the nearby Wellington-Mohak"},{"itemListElement":[{"name":"Home","@type":"ListItem","item":"https://palmerston-north.geotechnical-engineering1.co/","position":1},{"name":"Seismic","@type":"ListItem","item":"https://palmerston-north.geotechnical-engineering1.co/seismic/","position":2}],"@type":"BreadcrumbList"},{"itemListElement":[{"name":"Base isolation seismic design","@type":"ListItem","position":1,"url":"https://palmerston-north.geotechnical-engineering1.co/seismic-isolation/"},{"name":"Seismic microzonation","@type":"ListItem","position":2,"url":"https://palmerston-north.geotechnical-engineering1.co/seismic-microzonation/"},{"name":"Soil liquefaction analysis","@type":"ListItem","position":3,"url":"https://palmerston-north.geotechnical-engineering1.co/liquefaction/"}],"name":"Seismic","@type":"ItemList"}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#1E3A8A"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head>
 <body>
 
@@ -155,8 +162,8 @@ header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: whit
             <nav><a href="index.html" class="home">Home</a><div class="cat-item" data-cat="investigation"><div class="cat-row"><a data-interlink="1" href="/investigation/" class="cat-name">Investigation</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Investigation"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/cpt-test/">CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="lab-in-situ"><div class="cat-row"><a data-interlink="1" href="/lab-in-situ/" class="cat-name">In-Situ Testing</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir In-Situ Testing"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/sand-cone-density/">Field density test (sand cone method)</a></div></div><div class="cat-item" data-cat="laboratory"><div class="cat-row"><a data-interlink="1" href="/laboratory/" class="cat-name">Laboratory</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratory"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/atterberg-limits/">Atterberg limits</a><a data-interlink="1" href="/grain-size/">Grain size analysis (sieve + hydrometer)</a></div></div><div class="cat-item" data-cat="foundations"><div class="cat-row"><a data-interlink="1" href="/foundations/" class="cat-name">Foundations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Foundations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/piles/">Pile foundation design</a></div></div><div class="cat-item" data-cat="slopes"><div class="cat-row"><a data-interlink="1" href="/slopes/" class="cat-name">Slopes & Walls</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Slopes & Walls"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/anchors/">Active/passive anchor design</a><a data-interlink="1" href="/retaining-walls/">Retaining wall design</a><a data-interlink="1" href="/slope-stability/">Slope stability analysis</a></div></div><div class="cat-item" data-cat="ground-improvement"><div class="cat-row"><a data-interlink="1" href="/ground-improvement/" class="cat-name">Ground improvement</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Ground improvement"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/stone-columns/">Stone column design</a><a data-interlink="1" href="/vibrocompaction/">Vibrocompaction design</a></div></div><div class="cat-item" data-cat="seismic"><div class="cat-row"><a data-interlink="1" href="/seismic/" class="cat-name">Seismic</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Seismic"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/seismic-isolation/">Base isolation seismic design</a><a data-interlink="1" href="/seismic-microzonation/">Seismic microzonation</a><a data-interlink="1" href="/liquefaction/">Soil liquefaction analysis</a></div></div><div class="cat-item" data-cat="road-geotechnics"><div class="cat-row"><a data-interlink="1" href="/road-geotechnics/" class="cat-name">Roadway</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Roadway"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/cbr-road/">CBR study for road design</a><a data-interlink="1" href="/flexible-pavement/">Flexible pavement design</a><a data-interlink="1" href="/rigid-pavement/">Rigid pavement design</a></div></div><div class="cat-item" data-cat="excavations"><div class="cat-row"><a data-interlink="1" href="/excavations/" class="cat-name">Underground Excavations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Underground Excavations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/soft-ground-tunnels/">Geotechnical analysis for soft soil tunnels</a><a data-interlink="1" href="/deep-excavations/">Geotechnical design of deep excavations</a><a data-interlink="1" href="/excavation-monitoring/">Geotechnical excavation monitoring</a></div></div></nav>
         </aside>
         <main>
-            <section><p>In Palmerston North, seismic considerations are shaped by the city’s position within the actively deforming North Island, where the nearby Wellington-Mohaka Fault System and deep alluvial deposits of the Manawatū Basin introduce distinct ground-shaking and site-response challenges. Our work under this category addresses these conditions through targeted assessment and design aligned with the New Zealand Building Code’s seismic performance requirements, including NZS 1170.5. We commonly integrate <a href="seismic-microzonation/">seismic microzonation</a> to map variable ground behaviour across the urban area and <a href="liquefaction/">soil liquefaction analysis</a> to evaluate the loose, saturated sediments prevalent along the Manawatū River corridor.</p>
-<p>These services support mid-rise commercial structures, lifeline infrastructure, and industrial facilities where tolerable risk thresholds demand refined ground-motion inputs. For projects requiring enhanced resilience beyond conventional ductile detailing, we couple site-specific response studies with <a href="seismic-isolation/">base isolation seismic design</a> to decouple superstructures from damaging ground movement. The result is a defensible, code-compliant seismic package that accounts for Palmerston North’s basin-edge amplification and cyclic softening hazards without over-conservatism.</p></section>
+            <section><p>In Palmerston North, seismic considerations are shaped by the city’s position within the actively deforming North Island, where the nearby Wellington-Mohaka Fault System and deep alluvial deposits of the Manawatū Basin introduce distinct ground-shaking and site-response challenges. Our work under this category addresses these conditions through targeted assessment and design aligned with the New Zealand Building Code’s seismic performance requirements, including NZS 1170.5. We commonly integrate <a href="/seismic-microzonation/">seismic microzonation</a> to map variable ground behaviour across the urban area and <a href="/liquefaction/">soil liquefaction analysis</a> to evaluate the loose, saturated sediments prevalent along the Manawatū River corridor.</p>
+<p>These services support mid-rise commercial structures, lifeline infrastructure, and industrial facilities where tolerable risk thresholds demand refined ground-motion inputs. For projects requiring enhanced resilience beyond conventional ductile detailing, we couple site-specific response studies with <a href="/seismic-isolation/">base isolation seismic design</a> to decouple superstructures from damaging ground movement. The result is a defensible, code-compliant seismic package that accounts for Palmerston North’s basin-edge amplification and cyclic softening hazards without over-conservatism.</p></section>
 
             <blockquote style="border-left:4px solid #C9A961;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">Anchor bond stress in the Manawatu gravels can exceed 400 kPa, but only when grout injection pressure and mix design are matched to the site's permeability profile.</blockquote>
 

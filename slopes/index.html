@@ -22,6 +22,11 @@
 
 @media (max-width: 900px) {
     .sidebar { display: none; }
+    .content-area { flex-direction: column; }
+    .container { padding: 1rem; }
+    .header-top { flex-direction: column; text-align: center; }
+    main { padding: 1.5rem; }
+}
 summary:hover { background: rgba(0,0,0,0.02); }
 .sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
 .sidebar .home {
@@ -40,13 +45,13 @@ footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; ba
 
 .normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
 main p { margin-bottom: 1rem; color: #334155; }
-    .content-area { flex-direction: column; }
+    
 .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
 .cta .whatsapp-btn:hover { background: #1eb853; }
 a { color: var(--primary); text-decoration: none; }
 main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
-    .header-top { flex-direction: column; text-align: center; }
+    
 .sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
 .sidebar {
     width: 240px; background: var(--dark); color: white; flex-shrink: 0;
@@ -90,9 +95,9 @@ main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1p
 }
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
 .sidebar { padding: .5rem 0; }
-    .container { padding: 1rem; }
+    
 .sidebar .cat-name:hover { color: #c9a961; }
-    main { padding: 1.5rem; }
+    
 .sidebar .cat-sub {
     background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
 }
@@ -129,7 +134,9 @@ tr:nth-child(even) { background: #f8fafc; }
 .header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
 .servicio:hover { border-color: var(--primary); }
 .servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
-header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }</style>
+header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
+
+</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"name":"Slopes & Walls in Palmerston North – New Zealand","isPartOf":{"@type":"WebSite","@id":"https://palmerston-north.geotechnical-engineering1.co/#website","url":"https://palmerston-north.geotechnical-engineering1.co"},"@id":"https://palmerston-north.geotechnical-engineering1.co/slopes/","@type":"WebPage","url":"https://palmerston-north.geotechnical-engineering1.co/slopes/","inLanguage":"en","description":"In Palmerston North, the Tararua-derived loess and alluvial terrace deposits create variable ground conditions where cut-and-fill earthworks demand robust"},{"itemListElement":[{"name":"Home","@type":"ListItem","item":"https://palmerston-north.geotechnical-engineering1.co/","position":1},{"name":"Slopes & Walls","@type":"ListItem","item":"https://palmerston-north.geotechnical-engineering1.co/slopes/","position":2}],"@type":"BreadcrumbList"},{"itemListElement":[{"name":"Active/passive anchor design","@type":"ListItem","position":1,"url":"https://palmerston-north.geotechnical-engineering1.co/anchors/"},{"name":"Retaining wall design","@type":"ListItem","position":2,"url":"https://palmerston-north.geotechnical-engineering1.co/retaining-walls/"},{"name":"Slope stability analysis","@type":"ListItem","position":3,"url":"https://palmerston-north.geotechnical-engineering1.co/slope-stability/"}],"name":"Slopes & Walls","@type":"ItemList"}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#1E3A8A"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head>
 <body>
 
@@ -199,7 +206,14 @@ header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: whit
             </section>
 
             
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../anchors/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Active/passive anchor design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../retaining-walls/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Retaining wall design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../slope-stability/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Slope stability analysis</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
+<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto">
+<img src="/img/estabilidad-taludes-5.webp" alt="Slopes & Walls in Palmerston North" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+<p>In Palmerston North, slope stability and retaining wall design must address the region's distinctive geology, where loess-derived soils and the Ashhurst-Makino soil complex dominate the Manawatū plains and river terraces. These silty soils are prone to loss of strength when saturated, creating challenges for both cut and fill slopes. Our <a href="/investigation/">geotechnical investigation</a> services provide the critical subsurface data needed to assess failure mechanisms, from shallow slumping in residual soils to deeper rotational slides. We work closely with the NZ Building Code (Verification Method B1/VM4) and the MBIE guidance on earthquake-prone buildings, ensuring every assessment reflects the seismic demands of this active region.</p>
+<p>Our methodology follows New Zealand standards NZS 4402 for soil testing and NZGS guidelines for slope risk assessment, combining field data with advanced laboratory analysis. We routinely deploy <a href="/cpt-test/">CPT (Cone Penetration Test)</a> to map stratigraphy and detect weak layers without disturbance, complemented by <a href="/lab-in-situ/">in-situ testing</a> such as shear vane and dilatometer profiling. For compaction control behind retaining structures, we perform <a href="/sand-cone-density/">field density tests using the sand cone method</a> to verify engineered fill meets specification. In the laboratory, <a href="/atterberg-limits/">Atterberg limits</a> define the plasticity range of fine soils, while <a href="/grain-size/">grain size analysis (sieve + hydrometer)</a> quantifies the silt fraction that governs drainage behaviour. These parameters feed directly into limit-equilibrium and finite-element slope models calibrated to NZS 1170.5 seismic loads.</p>
+<p>Typical projects in Palmerston North span residential subdivisions on the city fringes where deep cuts expose paleosols, commercial developments along Napier Road requiring permanent shoring, and rural lifestyle blocks with gully erosion. We also assess retaining walls for bridge approaches over the Manawatū River and for stormwater detention basins in Fitzherbert. Each engagement begins with a desk study of the NZ Land Resource Inventory and council hazard maps, followed by targeted <a href="/laboratory/">laboratory testing</a> to determine effective stress parameters. For walls exceeding 1.5 metres, we design drainage systems to relieve hydrostatic pressure, a critical factor in the silt-rich soils that retain water and lose cohesion rapidly after rain.</p>
+<img src="/img/estabilidad-taludes-5.webp" alt="Slopes & Walls in Palmerston North" loading="lazy" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0">
+
+<p>Our deliverables include factual and interpretive reports with stability calculations, wall dimensions, reinforcement schedules, and construction monitoring plans. Clients receive clear, actionable recommendations that streamline consent applications under the Palmerston North District Plan. By integrating local geological knowledge with nationally recognised testing standards, we turn complex slope and wall challenges into buildable, durable solutions. Whether you are planning a cut batter, a reinforced soil wall, or a gravity structure, our <a href="/foundations/">foundations</a> and slope engineering team provides the technical rigour required to manage risk and control costs across the Manawatū.</p></div></section></main>
     </div>
 </div>
 
